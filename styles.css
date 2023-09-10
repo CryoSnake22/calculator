@@ -61,7 +61,18 @@ body {
   width: 100px;
 }
 
+.button:hover {
+  background-color: lightgray;
+  transition-duration: 200ms;
+}
+.button::before {
+  background-color: whitesmoke;
+}
+
 .button {
+  transition: background-color 200ms;
+  user-select: none;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,5 +98,5 @@ body {
 }
 
 #zero {
-  grid-column: 1 / 4;
+  grid-column: 1 / 3;
 }
