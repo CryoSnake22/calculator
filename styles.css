@@ -96,7 +96,3 @@ body {
   height: fit-content;
   border-radius: 35px;
 }
-
-#zero {
-  grid-column: 1 / 3;
-}
