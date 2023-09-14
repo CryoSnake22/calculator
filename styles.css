@@ -44,7 +44,7 @@ body {
 #numbersList {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   gap: 10px;
 
   width: 300px;
@@ -55,7 +55,7 @@ body {
 #operators {
   margin-left: 10px;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   gap: 10px;
   height: 300px;
   width: 100px;
@@ -95,4 +95,14 @@ body {
   width: fit-content;
   height: fit-content;
   border-radius: 35px;
+}
+
+#zero {
+  grid-column: 1 / 3;
+}
+#clear {
+  grid-column: 1 / 4;
+}
+#seven {
+  grid-column-start: 1;
 }
